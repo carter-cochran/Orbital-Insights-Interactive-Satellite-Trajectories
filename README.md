@@ -31,6 +31,12 @@ Then open `http://localhost:8080` in your browser.
 
 Note: the dev server is HTTP only. There is no HTTPS endpoint unless you add an HTTPS-capable static server.
 
+## END LEFTOVER BACKGROUND PROCESSES
+```bash
+lsof -nP -iTCP:8000 -sTCP:LISTEN
+kill {process}
+```
+
 ## Cesium Ion token
 - Keep the quotes when you paste your token into `frontend/config.js`.
 - Example:
