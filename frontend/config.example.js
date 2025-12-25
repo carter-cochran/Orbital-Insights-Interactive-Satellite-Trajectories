@@ -1,0 +1,1 @@
+window.CESIUM_ION_TOKEN = "YOUR_ION_TOKEN";
