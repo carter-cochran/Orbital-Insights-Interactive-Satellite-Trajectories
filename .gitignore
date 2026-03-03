@@ -1,1 +1,4 @@
 frontend/config.js
+*.log
+.venv/
+__pycache__/
